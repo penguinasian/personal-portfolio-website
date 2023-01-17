@@ -1,6 +1,6 @@
 import React from 'react';
 import EmailIcon from '@material-ui/icons/Email';
-import GithubIcon from '@material-ui/icons/GitHub';
+import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import '../styles/Home.css';
 
@@ -8,12 +8,21 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2> Hi, my Name is Daniel</h2>
+        <h2> Hi, my name is Daniel</h2>
         <div className="prompt">
           <p> A software developer with a passion for learning and creating.</p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GithubIcon />
+          <a href="https://github.com/penguinasian/" target="_blank" rel="noreferrer">
+            <GitHubIcon />
+          </a>
+
+          <a href="https://www.linkedin.com/in/daniel-zhang-12a23a114/" target="_blank" rel="noreferrer">
+            <LinkedInIcon />
+          </a>
+          <a href="mailto:zhangqiangtianchen@gmail.com">
+            <EmailIcon />
+          </a>
+
+
         </div>
       </div>
       <div className="skills">
