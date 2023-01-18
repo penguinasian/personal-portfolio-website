@@ -11,10 +11,9 @@ function Home() {
       <div className="about">
         <div className="profile">
           <img src={profileImg} alt="profile" />
-          
-        
+
           <div className="prompt">
-          <h2> Hi, my name is Daniel</h2>
+            <h2> Hi, my name is Daniel</h2>
             <p> I am a recent graduate of CST program at BCIT. Over the past two years, I have developed skills in web-based applications both on the front-end and back-end using technologies such as React, Vue, Javascript, HTML, CSS, Node, Express, REST API and Python.
               I am looking forward to applying my skills in my future work and learning from the best from the industry!
             </p>

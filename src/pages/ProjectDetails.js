@@ -3,7 +3,6 @@ import { useParams } from 'react-router-dom';
 import '../styles/ProjectDetails.css';
 import { projectList } from '../utils/ProjectList';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import WebSiteLink from '@material-ui/icons/Link';
 
 function ProjectDetails() {
     const { id } = useParams()
@@ -12,14 +11,19 @@ function ProjectDetails() {
     return (
         <div className="project">
             <h1> {project.name} </h1>
-            <img src={project.image} />
+            
+            <div className="individualProject">
+                <div style={{ backgroundImage: `url(${project.image})` }} className="projectDetails">
+
+                </div>
+                <a href={project.websiteUrl} target="_blank" rel="noreferrer"><button className="websiteDemoBtn">Demo</button></a>
+            </div>
             <p>
                 <b>Technologies Used:</b> {project.skills}
             </p>
-            <p className="small">Click below icons to checkout Github repository and Website for this project</p>
             <div className="websiteLink">
                 <a href={project.url} target="_blank" rel="noreferrer"><GitHubIcon /></a>
-                <a href={project.websiteUrl} target="_blank" rel="noreferrer"><WebSiteLink /></a>
+                <p className="small">Github link</p>
             </div>
 
         </div>

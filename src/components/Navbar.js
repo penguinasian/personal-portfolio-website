@@ -14,14 +14,23 @@ function Navbar() {
     return (
         <div className="navbar" id={showHamburgerMenu ? "open" : "close"}>
             <div className="toggleButton">
+                <h3>Daniel</h3>
                 <button onClick={() => { setShowHamburgerMenu((prev) => !prev) }}>
-                    <ReorderIcon />
+                    <ReorderIcon className="hangburgerMenu"/>
                 </button>
             </div>
+
+            
             <div className="links">
+                <h2>Daniel</h2>
+                <div className="navbar-links">
                 <Link to="/">Home</Link>
                 <Link to="/projects">Projects</Link>
-                <Link to="/experience">Education & Experience</Link>
+                <Link to="/experience">Career</Link>
+                </div>
+                
+                
+            
             </div>
         </div>
     )

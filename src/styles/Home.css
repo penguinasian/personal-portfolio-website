@@ -1,7 +1,7 @@
 .home {
     width: 100%;
     align-items: center;
-    font-family: "Arial", sans-serif;
+    font-family: 'Nunito', sans-serif;
     color: #3e497a;
 }
 
@@ -18,37 +18,41 @@
 }
 
 .about h2 {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 50px;
+    
+    font-size: 35px;
     color: #e9d35b;
     height: 50px;
     margin-top: 10px;
 }
 
 .about .prompt {
-    width: 40%;
-    font-size: 30px;
+    font-size: 25px;
+    margin-top: 10px;
+    width: 50%;
 }
 
 .profile {
     display: flex;
     justify-content: center;
-    background: #f0f0f0;
+    align-items: center;
 }
 
 .profile img {
-    height: 50vh;
-    border-radius: 50%;
+    border-radius: 5px;
+    height: 40vh;
+    width: 30vh;
+    margin-right: 50px;
 }
 
 .profile p {
-    color: #21325e;
+    color: white;
+    text-align: left;
 }
 
 .prompt svg {
     font-size: 60px;
     margin: 5px;
-    color: #21325e;
+    color: white;
 }
 
 .skills {
@@ -99,12 +103,99 @@
 
 @media only screen and (max-width: 830px) {
     .about h2 {
+        font-size: 25px;
+    }
+
+    .skills h1 {
         font-size: 30px;
+    }
+
+    .skills h2 {
+        font-size: 25px;
+    }
+
+    
+
+    .about .prompt {
+        margin-top: 10px;
+        font-size: 20px;
+        width: 70%;
+    }
+
+    .profile {
+        width: 80%;
+    }
+
+    .prompt svg {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .about h2 {
+        font-size: 20px;
     }
 
     .about .prompt {
         margin-top: 10px;
         font-size: 20px;
+        width: 70%;
+    }
+
+    .profile {
         width: 80%;
+    }
+
+    .prompt svg {
+        font-size: 30px;
+    }
+    .prompt p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .about h2 {
+        font-size: 20px;
+    }
+
+    .about .prompt {
+        margin-top: 10px;
+        font-size: 15px;
+        width: 70%;
+    }
+
+    .profile {
+        width: 95%;
+    }
+
+    .prompt svg {
+        font-size: 25px;
+    }
+    .prompt p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .about h2 {
+        font-size: 18px;
+    }
+
+    .about .prompt {
+        
+        font-size: 15px;
+        width: 70%;
+    }
+
+    .profile {
+        width: 95%;
+    }
+
+    .prompt svg {
+        font-size: 20px;
+    }
+    .prompt p {
+        font-size: 12px;
     }
 }
