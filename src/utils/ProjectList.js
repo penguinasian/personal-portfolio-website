@@ -4,26 +4,32 @@ import Bike from '../assets/biking.jpg'
 
 export const projectList = [
     {
-        name: "Social Media Website",
+        name: "Viking",
+        genre: "Biking Routes Guiding Website",
+        about: "A web application that provides users the best biking route in Vancouver area.",
+        image: Bike,
+        skills: "Firebase, Javascript, DOM, CSS",
+        url: "https://github.com/penguinasian/COMP-2800-Team-DTC-06-Viking",
+        websiteUrl: "https://viking-eaee3.web.app/",
+    },
+    {
+        name: "Connect",
+        genre: "Social Media Website",
+        about: "A social media website where users can share their photos.",
         image: SocialMedia,
         skills: "ReactJs, Javascript, Sanity, Tailwind CSS",
         url: "https://github.com/penguinasian/Ecommerce-Website",
         websiteUrl: "https://connecttheworld.netlify.app/",
     },
     {
-        name: "Ecommerce Website",
+        name: "Shop-Electronics",
+        genre: "Ecommerce Website",
+        about: "An ecommerce website where users can purchase electronics.",
         image: Proj2,
-        skills: "NextJs, ReactJs, Javascript, Sanity, CSS",
+        skills: "NextJs, ReactJs, Javascript, Sanity, CSS, Stripe",
         url: "https://github.com/penguinasian/Ecommerce-Website",
         websiteUrl: "https://shopping-electronics.netlify.app/",
 
-    },
-    {
-        name: "Viking",
-        image: Bike,
-        skills: "Firebase, Javascript, CSS",
-        url: "https://github.com/penguinasian/COMP-2800-Team-DTC-06-Viking",
-        websiteUrl: "https://viking-eaee3.web.app/",
-    },
+    }, 
     
 ]
