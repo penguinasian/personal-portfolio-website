@@ -17,6 +17,7 @@ function Experience() {
           <h3 className="vertical-timeline-element-title"> BCIT, Vancouver, BC</h3>
           <h4>Diploma</h4>
           <p>Computer System Technology</p>
+          <p>Core Courses Taken: Web development, Data Structure & Algorithm, Database & System design, Object Programming Language, Procedural Programming Language, Cloud - AWS</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement className="vertical-timeline-element--education"
           date="2015 - 2017"
