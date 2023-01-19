@@ -1,12 +1,13 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
 import '../styles/Navbar.css'
-import { Link, useLocation } from 'react-router-dom';
+import { useLocation, NavLink } from 'react-router-dom';
 import ReorderIcon from '@material-ui/icons/Reorder';
 
 function Navbar() {
     const [showHamburgerMenu, setShowHamburgerMenu] = useState(false)
     const location = useLocation()
+
 
     useEffect(() => {
         setShowHamburgerMenu(false)
@@ -24,9 +25,9 @@ function Navbar() {
             <div className="links">
                 <h2>Daniel</h2>
                 <div className="navbar-links">
-                <Link to="/">Home</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/experience">Career</Link>
+                <NavLink to="/">Home</NavLink>
+                <NavLink to="/projects">Projects</NavLink>
+                <NavLink to="/experience">Career</NavLink>
                 </div>
                 
                 

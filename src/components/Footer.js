@@ -18,7 +18,7 @@ function Footer() {
         </a>
         <InstagramIcon />
       </div>
-      <p> &copy; 2023 daniel.com </p>
+      <p> &copy; 2023 danielzhang.dev </p>
     </div>
   )
 }
