@@ -1,0 +1,22 @@
+.notFound {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #21325e;
+    color: #f0f0f0;
+}
+
+.notFound .redirect {
+    display: flex;
+    align-items: baseline;
+}
+
+.notFound .redirect a {
+    color: white;
+    
+    margin-left: 5px;
+}
