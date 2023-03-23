@@ -13,6 +13,16 @@ export const projectList = [
         websiteUrl: "https://viking-eaee3.web.app/",
     },
     {
+        name: "Career Switch",
+        genre: "Career Switch Guiding Website",
+        about: "A platform where people can share their career switching experiences and also can read stories from others.",
+        image: Proj2,
+        skills: "VueJs,Javascript, CSS, HTML, MongoDB, Google Cloud App Engine",
+        url: "https://github.com/penguinasian/career-switch-guide",
+        websiteUrl: "https://careerswitch.danielzhang.dev/",
+
+    }, 
+    {
         name: "Connect",
         genre: "Social Media Website",
         about: "A social media website where users can share their photos.",
@@ -21,6 +31,8 @@ export const projectList = [
         url: "https://github.com/penguinasian/Ecommerce-Website",
         websiteUrl: "https://connecttheworld.netlify.app/",
     },
+    
+
     {
         name: "Shop-Electronics",
         genre: "Ecommerce Website",

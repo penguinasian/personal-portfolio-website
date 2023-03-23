@@ -11,28 +11,25 @@
 .project h1 {
     margin-top: 50px;
     color: #3e497a;
-    font-size: 35px;
-    text-align: center;
-}
-
-.individualProject {
-    border-radius: 15px;
-    width: 500px;
-    height: 500px;
-    margin: 40px;
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
 
 .projectDetails {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    width: 100%;
-    height: 70%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    border-radius: 15px;
+    width: 400px;
+    height: 400px;
+    margin: 40px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #3e497a;
+    opacity: 0.8;
 }
+
+
 
 .websiteDemoBtn {
     background: #3e497a;
@@ -41,12 +38,17 @@
     border-radius: 5px;
     color: white;
     font-size: 20px;
-    margin-top: 25px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.websiteDemoBtn:hover {
+    cursor: pointer;
 }
 
 .project p {
-    font-size: 35px;
-    color: #3e497a;
+    font-size: 30px;
+    color: white;
 }
 
 .project .small {
@@ -77,86 +79,91 @@
     transform: scale(1.10, 1.10);
 }
 
-@media only screen and (max-width: 650px) {
-    .projectDetails {
-        width: 100%;
-    }
 
-    .individualProject {
-        width: 70%;
-    }
+@media screen and (max-width: 1024px) {
+   
 
     .project h1 {
-        margin-top: 20px;
-        color: #3e497a;
-        font-size: 20px;
-    }
-
-    
-    .project .websiteDemoBtn {
-        width: 70px;
-        height: 35px;
-        font-size: 20px;
+        
+        font-size: 36px;
     }
 
     .project p {
-        text-align: center;
-        font-size: 20px;
+        
+        font-size: 26px;
+    }
+
+    .project .websiteDemoBtn {
+        width: 100px;
+        height: 50px;
+        font-size: 26px;
     }
 
     .project .websiteLink svg {
         font-size: 45px;
     }
-}
 
-@media only screen and (max-width: 900px) {
-    .project img {
-        width: 70%;
-    }
-
-    .project h1 {
-        margin-top: 20px;
-        color: #3e497a;
-        font-size: 30px;
-    }
-
-    .project p {
-        text-align: center;
+    .project  .small {
         font-size: 25px;
     }
 }
 
-@media only screen and (max-width: 600px) {
-    
-    
-} 
+@media screen and (max-width: 768px) {
+   
 
-@media only screen and (max-height: 800px) {
-    .individualProject {
-        width: 200px;
-        height: 300px;
-    }
-    .projectDetails {
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
-        width: 100%;
-        height: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+    .project h1 {
+        
+        font-size: 28px;
     }
 
-    .project  p {
+    .project p {
+        
         font-size: 20px;
     }
 
-    h1 {
-        font-size: 30px;
-    }
     .project .websiteDemoBtn {
-        width: 50px;
-        height: 25px;
-        font-size: 10px;
+        width: 100px;
+        height: 50px;
+        font-size: 20px;
     }
-  
+
+    .project .websiteLink svg {
+        font-size: 40px;
+    }
+
+    .project  .small {
+        font-size: 22px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .projectDetails {
+        width: 80%;
+    }
+
+    .project h1 {
+        
+        font-size: 20px;
+    }
+
+    
+    .project .websiteDemoBtn {
+        width: 80px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .project p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .project .websiteLink svg {
+        font-size: 35px;
+    }
+
+    .project  .small {
+        font-size: 16px;
+    }
 }
